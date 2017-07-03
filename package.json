@@ -1,0 +1,26 @@
+{
+  "name": "xtal-icaro",
+  "version": "1.0.0",
+  "description": "Polymer bindings to icaro object observer",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "icaro": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahrus/xtal-icaro.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahrus/xtal-icaro/issues"
+  },
+  "homepage": "https://github.com/bahrus/xtal-icaro#readme"
+}

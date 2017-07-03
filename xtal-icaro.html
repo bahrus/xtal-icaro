@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="xtal-icaro">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `xtal-icaro`
+     * Polymer bindings to icaro object observer
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class XtalIcaro extends Polymer.Element {
+      static get is() { return 'xtal-icaro'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'xtal-icaro'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(XtalIcaro.is, XtalIcaro);
+  </script>
+</dom-module>
